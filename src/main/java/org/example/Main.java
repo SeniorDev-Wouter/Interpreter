@@ -9,18 +9,23 @@ import org.example.gen.org.example.MyGrammarParser;
 
 public class Main {
     public static void main(String[] args) {
-        // Create a player
         Player player = new Player("John");
         player.setAttribute("gezondheid", 60);
-        // Set other attributes as needed
 
-        // Parse the input and interpret
-        String input = "wanneer mijn gezondheid groter dan 50 dan val ik de kobold aan.";
+        String input = """
+                wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                """;
         MyGrammarLexer lexer = new MyGrammarLexer(CharStreams.fromString(input));
         MyGrammarParser parser = new MyGrammarParser(new CommonTokenStream(lexer));
         ParseTree tree = parser.agent();
 
         MyInterpreter interpreter = new MyInterpreter(player);
+        long milis = System.currentTimeMillis();
         ParseTreeWalker.DEFAULT.walk(interpreter, tree);
+        System.out.println(System.currentTimeMillis() - milis);
+
     }
 }

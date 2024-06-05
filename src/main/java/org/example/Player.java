@@ -23,8 +23,8 @@ public class Player {
         attributes.put(attributeName, value);
     }
 
-    public void move(String direction) {
-        System.out.println(name + " is moving " + direction);
+    public void move(String target) {
+        System.out.println(name + " is moving towards " + target);
     }
 
     public void attack(String target) {

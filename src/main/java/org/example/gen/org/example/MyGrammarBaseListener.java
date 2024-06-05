@@ -4,6 +4,7 @@ package org.example.gen.org.example;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
+import org.example.StopException;
 
 /**
  * This class provides an empty implementation of {@link MyGrammarListener},

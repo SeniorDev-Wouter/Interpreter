@@ -22,7 +22,8 @@ public class MyInterpreter extends MyGrammarBaseListener {
         int value = Integer.parseInt(ctx.INT().getText());
         String action = ctx.actie().getText();
 
-        // Call performAction method of the decision maker
         decisionMaker.performAction(attribute, comparisonOperator, value, action);
     }
 }
+
+
