@@ -15,10 +15,8 @@ public class ActionDecisionMaker {
             return;
         }
 
-        // Check if the action should be performed based on the decision maker
         if (shouldPerformAction(attribute, comparisonOperator, value) && !action.isEmpty()) {
-            // Perform action based on the action string
-            if (action.startsWith("beweeg naar")) {
+            if (action.startsWith("beweeg")) {
                 String target = action.substring("beweeg naar".length()).trim();
                 player.move(target);
             } else if (action.startsWith("val ik")) {
@@ -27,7 +25,6 @@ public class ActionDecisionMaker {
             } else {
                 System.out.println("Unknown action: " + action);
             }
-            // Set the flag to true after performing the action
             actionPerformed = true;
         }
     }

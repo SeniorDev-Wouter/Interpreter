@@ -3,15 +3,10 @@ package org.example;
 import org.example.gen.org.example.MyGrammarBaseListener;
 import org.example.gen.org.example.MyGrammarParser;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class MyInterpreter extends MyGrammarBaseListener {
-    private Player player;
     private ActionDecisionMaker decisionMaker;
 
     public MyInterpreter(Player player) {
-        this.player = player;
         this.decisionMaker = new ActionDecisionMaker(player);
     }
 
