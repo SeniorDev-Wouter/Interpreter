@@ -29,20 +29,14 @@ public class ActionDecisionMaker {
         }
     }
 
-    public boolean isActionPerformed() {
-        return actionPerformed;
-    }
-
     private boolean shouldPerformAction(String attribute, String comparisonOperator, int value) {
         int attributeValue = player.getAttribute(attribute);
 
-        // Perform comparison dynamically based on the provided operator
         switch (comparisonOperator) {
             case "groter dan":
                 return attributeValue > value;
             case "kleiner dan":
                 return attributeValue < value;
-            // Add more comparison operators if needed
             default:
                 return false;
         }
