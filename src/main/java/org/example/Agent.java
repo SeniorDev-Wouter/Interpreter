@@ -18,6 +18,52 @@ public class Agent {
                  wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
                  wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
                  wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan beweeg ik naar de kist.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan beweeg ik naar de kist.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan beweeg ik naar de kist.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan beweeg ik naar de kist.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan beweeg ik naar de kist.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan beweeg ik naar de kist.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan beweeg ik naar de kist.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan beweeg ik naar de kist.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan beweeg ik naar de kist.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
+                 wanneer mijn gezondheid groter dan 50 dan val ik de grote boze pinda aan.
                 """;
         MyGrammarLexer lexer = new MyGrammarLexer(CharStreams.fromString(input));
         MyGrammarParser parser = new MyGrammarParser(new CommonTokenStream(lexer));

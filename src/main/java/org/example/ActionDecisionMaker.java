@@ -16,8 +16,8 @@ public class ActionDecisionMaker {
         }
 
         if (shouldPerformAction(attribute, comparisonOperator, value) && !action.isEmpty()) {
-            if (action.startsWith("beweeg")) {
-                String target = action.substring("beweeg naar".length()).trim();
+            if (action.startsWith("beweeg ik")) {
+                String target = action.substring("beweeg ik naar".length()).trim();
                 player.move(target);
             } else if (action.startsWith("val ik")) {
                 String target = action.substring("val ik aan".length(), action.length() - 3).trim(); // Trim the "aan"
